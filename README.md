@@ -22,27 +22,6 @@ Perfect for exporting Pinterest recipe boards to [Mealie](https://mealie.io/) or
 
 ## 🚀 Quick Start
 
-### Method 1: Bookmarklet (Easiest!)
-
-1. **Create a bookmark** in your browser
-2. **Set the URL to:**
-
-```javascript
-javascript:(function(){var s=document.createElement('script');s.src='https://raw.githubusercontent.com/eliaskoehnlein05/pinterest-url-collector/main/pinterest-collector.js';document.head.appendChild(s);})();
-```
-
-3. Go to any Pinterest board
-4. Click the bookmarklet
-5. Click **START**
-6. Wait ~5-10 minutes
-7. Click **EXPORT**
-
-Done! 🎉
-
----
-
-### Method 2: Browser Console
-
 1. Open Pinterest board
 2. Press `F12` → Click `Console` tab
 3. Copy entire script from `pinterest-collector.js`
